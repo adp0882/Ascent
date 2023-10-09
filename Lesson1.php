@@ -1,11 +1,31 @@
-<html lang="en">
-<head>
-    <title>Hello World</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html>
+
 <body>
-    <?php echo "Hello, World!";?>
+    <a href="/lessons">Back</a>
+    <br />
+    <h1>Lesson 1</h1>
+    <?php
+    # This is a comment, and
+    # This is the second line of the comment
+    // This is a comment too. Each style comments only
+    echo "<h3>An example with single line comments</h3>";
+    echo "// This is a comment too. Each style comments only";
+
+    /* This is a comment with multiline
+    Author : Arvin Paleng
+    Purpose: Multiline Comments Demo
+    Subject: PHP
+    */
+    echo "<br/>";
+    echo "<h3>An example with multi line comments</h3>";
+    echo "
+    /* <br/>
+    This is a comment with multiline<br/>
+    Author : Arvin Paleng<br/>
+    Purpose: Multiline Comments Demo<br/>
+    Subject: PHP<br/>
+    */";
+    ?>
 </body>
+
 </html>
